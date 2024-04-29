@@ -1,0 +1,46 @@
+.navIcon {
+
+    width: 50px;
+    box-shadow: 0px 0px 4px 0px white;
+    border-radius: 40px;
+
+
+}
+
+.navbar {
+
+    background-color: #110b19 !important;
+
+}
+
+.btnStyle {
+
+    border: 1px solid #99d7fe !important;
+    color: white;
+
+}
+
+.btnStyle:hover {
+
+    background-color: #99d7fe !important;
+
+}
+
+.inputStyle {
+
+    border: 2px solid #99d7fe !important;
+
+}
+
+.inputStyle::placeholder {
+
+    color: #110b19 !important;
+
+}
+
+.navbar-toggler {
+
+    border: 1px solid white;
+    background-color: white !important;
+
+}
