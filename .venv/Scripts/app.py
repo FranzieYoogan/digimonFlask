@@ -13,19 +13,28 @@ def index():
   inputValue = request.form['inputValue']
   if(inputValue):
    response = requests.get(f'https://digi-api.com/api/v1/digimon/{inputValue}')
-   data = response.text
-   parse_json = json.loads(data)
-   dataName = parse_json['name']
-   dataImages = parse_json['images'][0]['href']
+   if(response):
+    data = response.text
+    parse_json = json.loads(data)
+    dataName = parse_json['name']
+    dataImages = parse_json['images'][0]['href']
 
 
-  if(data): 
+
    
  
-   return render_template('index.htm',response = str(dataName), responseImg = str(dataImages)); 
+    return render_template('index.htm',response = str(dataName), responseImg = str(dataImages))
 
-   
+   else:
+    error = "error"
     
+    return render_template('index.htm',error = error)
+   
+  else:
+    error = "error"
+    
+    return render_template('index.htm',error = error)
+
  return render_template('index.htm'); 
 
 
