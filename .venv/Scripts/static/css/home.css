@@ -44,3 +44,56 @@
     background-color: white !important;
 
 }
+
+.containerResponse {
+
+    border: 2px solid white;
+    padding: 15px;
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 1em;
+    border: 1px solid black;
+}
+
+.responseImg {
+
+    width: 100%;
+    padding: 10px;
+
+}
+
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+body {
+
+    background: url('/static/img/wallpaper/digimon.gif');
+    background-size: 100%;
+
+}
+
+@media only screen and (width: 400px) {
+    body {
+
+       
+        background-size: 250%;
+        background-position-x: 30%;
+    
+    }
+  }
+
+  @media only screen and (width: 554px) {
+    body {
+
+       
+  
+        background-position-y: -20%;
+    
+    }
+  }
