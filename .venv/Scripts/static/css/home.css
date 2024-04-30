@@ -173,3 +173,176 @@ body {
     margin-right: 2em;
     }
   }
+
+  @media only screen and (width: 425px) {
+    body {
+
+       
+        background-size: 250%;
+        background-position-x: 20%;
+    
+    }
+
+
+    .containerItems2 {
+
+        width: 100%;
+        height: 30vh !important;
+    }
+
+    .itemsText {
+
+        font-size: 20px;
+    
+    }
+
+    .containerAll {
+
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .containerResponse {
+
+        width: 50%;
+        
+    }
+
+    .containerAll { 
+    
+    gap: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
+  }
+
+
+  @media only screen and (width: 375px) {
+    body {
+
+       
+        background-size: 250%;
+        background-position-x: 20%;
+    
+    }
+
+
+    .containerItems2 {
+
+        width: 100%;
+        height: 20vh !important;
+    }
+
+    .itemsText {
+
+        font-size: 13px;
+    
+    }
+
+    .containerAll {
+
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .containerResponse {
+
+        width: 45%;
+        
+    }
+
+    .containerAll { 
+    
+    gap: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
+  }
+
+  @media only screen and (width: 320px) {
+    body {
+
+       
+        background-size: 250%;
+        background-position-x: 20%;
+    
+    }
+
+
+    .containerItems2 {
+
+        width: 100%;
+        height: 13vh !important;
+        padding: 6px;
+
+    }
+
+    .itemsText {
+
+        font-size: 13px;
+    
+    }
+
+    .containerAll {
+
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .containerResponse {
+
+        width: 55%;
+        
+    }
+
+    .containerAll { 
+    
+    gap: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
+  }
+
+  @media only screen and (width: 768px) {
+    body {
+
+       
+        background-size: 250%;
+        background-position-x: 20%;
+    
+    }
+
+
+    .containerItems2 {
+
+        width: 100%;
+        height: auto !important;
+        padding: 30px;
+
+    }
+
+    .itemsText {
+
+        font-size: 40px;
+    
+    }
+
+    .containerAll {
+
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .containerResponse {
+
+        width: 100% ;
+        
+    }
+
+    .containerAll { 
+    
+    gap: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
+  }
