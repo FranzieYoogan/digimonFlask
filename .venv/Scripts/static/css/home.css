@@ -49,10 +49,10 @@
 
     border: 2px solid white;
     padding: 15px;
-    width: 25%;
+    width: 15%;
     background-color: #ffffff;
     border-radius: 10px;
-    margin-top: 1em;
+    margin-top: 3em;
     border: 1px solid black;
 }
 
@@ -67,7 +67,26 @@
 
     display: flex;
     justify-content: center;
+    gap: 4em;
 
+
+}
+
+.containerItems2 {
+
+    margin-top: 3em;
+    box-shadow: 0px 0px 4px 2px black;
+    background-color: #99d7fe;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.itemsText {
+
+    color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px black;
 
 }
 
@@ -86,14 +105,71 @@ body {
         background-position-x: 30%;
     
     }
+
+    .containerItems2 {
+
+        width: auto;
+        height: 30vh !important;
+    }
+
+    .itemsText {
+
+        font-size: 14px;
+    
+    }
+
+    .containerResponse {
+
+        width: 50%;
+        
+    }
+
+    .containerAll { 
+    
+    gap: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
   }
 
   @media only screen and (width: 554px) {
     body {
 
        
-  
-        background-position-y: -20%;
+        background-size: 250%;
+        background-position-x: 20%;
     
+    }
+
+
+    .containerItems2 {
+
+        width: auto;
+        height: 40vh !important;
+    }
+
+    .itemsText {
+
+        font-size: 25px;
+    
+    }
+
+    .containerAll {
+
+        margin-bottom: 2em;
+
+    }
+
+    .containerResponse {
+
+        width: 50%;
+        
+    }
+
+    .containerAll { 
+    
+    gap: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
     }
   }

@@ -17,13 +17,16 @@ def index():
     data = response.text
     parse_json = json.loads(data)
     dataName = parse_json['name']
+    dataLevels = parse_json['levels'][0]['level']
+    dataTypes = parse_json['types'][0]['type']
     dataImages = parse_json['images'][0]['href']
+
 
 
 
    
  
-    return render_template('index.htm',response = str(dataName), responseImg = str(dataImages))
+    return render_template('index.htm',response = str(dataName), responseImg = str(dataImages), dataLevels = str(dataLevels), dataTypes = str(dataTypes))
 
    else:
     error = "error"
